@@ -14,3 +14,17 @@ body {
     background-position: center;
     height: 100vh;
 }
+
+/* ####### NAVBAR ####### */
+
+.nav-li {
+    display: inline;
+
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    padding-right: 15px;
+}

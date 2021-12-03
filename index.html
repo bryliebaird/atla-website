@@ -18,31 +18,38 @@
         <![endif]-->
 
         <div id="background-wrapper">
+            <!-- NAVBAR -->
             <nav>
-                <ul class="nav-list">
-                    <li class="nav-li">
-                        <a class="nav-item" href="#">Home</a>
-                    </li>
-                    <li class="nav-li">
-                        <a class="nav-item" href="#">About</a>
-                    </li>
-                    <li class="nav-li">
-                        <a class="nav-item" href="#">Characters</a>
-                    </li>
+                <button id="nav-btn" class="button">+</button>
+                <ul class="nav-list hidden">
+                    <li class="nav-li"><a href="#main" class="nav-item">Home</a></li>
+                    <li class="nav-li"><a href="#about" class="nav-item">About</a></li>
+                    <li class="nav-li"><a href="#quotes" class="nav-item">Quotes</a></li>
+                    <li class="nav-li"><a href="#news" class="nav-item">About</a></li>
+                    <li class="nav-li"><a href="#characters" class="nav-item">Characters</a></li>
                 </ul>
+                
             </nav>
-    
-            <main class="main-section">
+            <!-- MAIN SECTION -->
+            <main id="main" class="section">
                 <h1>ATLA Website</h1>
                 <p>ATLA quote</p>
             </main>
         </div>
 
-        <section class="about">
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section">
             <h2>About the Show Section</h2>
         </section>
+
+        <!-- QUOTES SECTION -->
+        <section id="quotes" class="section">
+            <h2>Uncle Iroh Quotes</h2>
+            <p>find api or use js to shuffle through 10 quotes</p>
+        </section>
         
-        <section class="news">
+        <!-- NEWS SECTION -->
+        <section id="news" class="section">
             <h2>News + Updates</h2>
             <div class="article-one">
                 <h3>Article #1</h3>
@@ -55,17 +62,14 @@
             </div>
         </section>
 
-        <section class="quotes-generator">
-            <h2>Uncle Iroh Quotes</h2>
-            <p>find api or use js to shuffle through 10 quotes</p>
-        </section>
-    
-        <section class="character-cards">
+        <!-- CHARACTERS SECTION -->
+        <section id="characters" class="section">
             <h2>Character Cards Section</h2>
             <p>create api with all characters from the show and display as cards</p>
             <p>add search input (can take code from github-repo-gallery project)</p>
         </section>
         
+        <!-- FOOTER -->
         <footer>Footer</footer>
 
         

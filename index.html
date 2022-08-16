@@ -25,6 +25,15 @@
             padding: 3.75rem 0;
         }
 
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        a:hover {
+            color: #000;
+        }
+
     </style>
 
 </head>
@@ -35,18 +44,21 @@
         <div class="container-lg justify-content-center">
             <div class="row text-center text-dark">
                 <a href="#intro" class="navbar-brand text-dark">Avatar the Last Airbender</a>
-                <div class="container">
+                <div class="container mb-2">
                     <a href="#intro">
-                        <i class="bi bi-book-half text-secondary d-inline mx-2"></i>
-                        <i class="bi bi-book-half text-secondary d-inline mx-2"></i>
-                        <i class="bi bi-book-half text-secondary d-inline mx-2"></i>
-                        <i class="bi bi-book-half text-secondary d-inline mx-2"></i>
+                        <i class="bi bi-droplet d-inline mx-2"></i>
+                        <i class="bi bi-flower1 d-inline mx-2"></i>
+                        <i class="bi bi-fire d-inline mx-2"></i>
+                        <i class="bi bi-wind d-inline mx-2"></i>
+                        
                     </a>
                 </div>
                 <!-- offcanvas button -->
-                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
-                    <i class="bi bi-list"></i>
-                </button>
+                <div class="col-xs-1">
+                    <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
+                        <i class="bi bi-list"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </nav>
@@ -90,21 +102,60 @@
                     <span class="t-tip" data-bs-placement="top" title="Tea #3">
                         <img class="img-fluid" src="assets/tea-2.svg" alt="third and final tea choice.">
                     </span>
-                    <button type="button" class="btn btn-outline-dark btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#tea-modal-three">Spirit Oasis Blend</button>
+                    <button type="button" class="btn btn-outline-dark btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#tea-modal-three">White Dragon Tea</button>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- news and updates -->
-    
-
-
-    <!-- fan art carousel -->
-
+    <section id="news">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>News + Updates</h2>
+                <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum exercitationem quo iusto?</p>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="card-group">
+                    <div class="card">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
 
     <!-- character cards -->
 
+
+    <!-- fan art carousel -->
 
     <!-- footer -->
 
@@ -119,15 +170,13 @@
         <div class="offcanvas-body">
             <div class="list-group list-group-flush">
                 <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Home</a>
-                <a href="#quotes" class="list-group-item list-group-item-action">Uncle Iroh Inspiration</a>
+                <a href="#quotes" class="list-group-item list-group-item-action">The Jasmine Dragon</a>
                 <a href="#" class="list-group-item list-group-item-action">News + Updates</a>
                 <a href="#" class="list-group-item list-group-item-action">Fan Art</a>
                 <a href="#" class="list-group-item list-group-item-action">Characters</a>
                 <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">What kind of bender are you? Quiz - coming soon!</a>
         </div>
     </div>
-
-
 
     <!-- tea modal #1 -->
     <div id="tea-modal-one" class="modal fade" tabindex="-1" aria-hidden="true">
@@ -145,6 +194,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- BOOTSTRAP JS LINK WITH POPPER -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

@@ -34,6 +34,16 @@
             color: #000;
         }
 
+        #intro {
+            height: 100vh;
+
+            background-image: url("assets/img/main-bg.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .2);
+        }
     </style>
 
 </head>
@@ -62,9 +72,9 @@
         </div>
     </nav>
 
-    <!-- hero section -->
-    <section id="hero">
-        <div class="container-lg border border-dark">
+    <!-- intro -->
+    <section id="intro">
+        <div class="container-lg">
             <div class="row justify-content-center">
                 <div class="col-md-6 text-center">
                     <h1>
@@ -196,20 +206,18 @@
                             <div class="carousel-item">
                                 <img src="assets/img/about.png" alt="#" class="img-fluid">
                             </div>
+                            <button id="artBtn-left" class="carousel-control-prev" type="button" data-bs-target="#artCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button id="artBtn-right" class="carousel-control-next" type="button" data-bs-target="#artCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#artCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-
-                        <button class="carousel-control-next" type="button" data-bs-target="#artCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
                 </div>
             </div>
-                
         </div>
     </section>
 
